@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>MapQuest – Privacy Policy</title>
+  <title>Quizograph – Privacy Policy</title>
   <style>
     body {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -22,51 +22,56 @@
   </style>
 </head>
 <body>
-
   <h1>Privacy Policy</h1>
-  <p class="updated">Last updated: June 7, 2026</p>
+  <p class="updated">Last updated: [FILL IN THE DATE YOU PUBLISH THIS]</p>
 
-  <p>MapQuest ("we", "our", or "us") is developed by No Context Studios. This Privacy Policy explains how we handle information when you use the MapQuest mobile application ("the App").</p>
+  <p>Quizograph ("we", "our", or "us") is developed by No Context Studios. This Privacy Policy explains how we handle information when you use the Quizograph mobile application ("the App").</p>
 
   <h2>1. Information We Collect</h2>
   <p>We collect minimal information necessary to operate the App:</p>
   <ul>
-    <li><strong>Username:</strong> A display name you choose when setting up the App, used to identify your scores on the leaderboard.</li>
-    <li><strong>Game scores:</strong> Your quiz scores and difficulty levels, stored locally on your device and optionally submitted to our global leaderboard.</li>
+    <li><strong>Username:</strong> A display name you choose when setting up the App, used to identify your scores on the leaderboard and to ensure usernames are unique.</li>
+    <li><strong>Game scores:</strong> Your quiz scores, achievements, and progress, stored locally on your device and optionally submitted to our global leaderboard.</li>
     <li><strong>App preferences:</strong> Settings such as sound preferences and Pro status, stored locally on your device.</li>
+    <li><strong>Advertising identifier:</strong> If you are a free (non-Pro) user, our advertising partner (Google AdMob) may collect your device's advertising ID to serve and measure ads. Pro users do not see ads and this data is not collected for them.</li>
   </ul>
 
-  <h2>2. Global Leaderboard</h2>
-  <p>If you choose to submit your score to the global leaderboard, your chosen username and score are stored in Google Firebase Firestore. This data is publicly visible to other players. We do not collect your real name, email address, or any personally identifiable information as part of this process.</p>
+  <h2>2. Global Leaderboard and Username Registry</h2>
+  <p>If you choose to submit your score to the global leaderboard, your chosen username and score are stored in Google Firebase Firestore and are publicly visible to other players. We also maintain a registry of claimed usernames in Firestore to prevent duplicate names -- this stores only the username itself, not any personal information.</p>
+  <p>We do not collect your real name, email address, or any personally identifiable information as part of this process.</p>
 
   <h2>3. Information We Do Not Collect</h2>
   <ul>
     <li>We do not collect your real name, email address, or phone number.</li>
     <li>We do not collect precise location data.</li>
     <li>We do not collect payment information. Any in-app purchases are handled entirely by Google Play.</li>
-    <li>We do not sell or share your data with third parties for marketing purposes.</li>
+    <li>We do not sell your data, and we do not share it with third parties except as described in this policy (Firebase and AdMob, both operated by Google).</li>
   </ul>
 
   <h2>4. Third-Party Services</h2>
   <p>The App uses the following third-party services:</p>
   <ul>
-    <li><strong>Google Firebase Firestore</strong> – for storing global leaderboard scores. Subject to <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a>.</li>
+    <li><strong>Google Firebase Firestore</strong> – for storing global leaderboard scores and the username registry. Subject to <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a>.</li>
     <li><strong>Google Play</strong> – for app distribution and in-app purchases. Subject to <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a>.</li>
+    <li><strong>Google AdMob</strong> – for displaying ads to free users. AdMob may collect your advertising identifier and other data to serve and measure ads, and may use this data in line with Google's advertising policies. Subject to <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a> and <a href="https://support.google.com/admob/answer/6128543" target="_blank">Google's AdMob data disclosure</a>.</li>
   </ul>
 
-  <h2>5. Data Storage and Security</h2>
-  <p>Most app data (preferences, local scores, hints count) is stored locally on your device using AsyncStorage and never transmitted to our servers. Leaderboard data submitted to Firebase is stored securely using Google's infrastructure.</p>
+  <h2>5. Your Choices and Data Deletion</h2>
+  <p>To request removal of your leaderboard entry or claimed username, contact us at the email below with your username, and we will remove the corresponding records from Firestore.</p>
+  <p>Most other app data (preferences, local scores, hints count) is stored locally on your device and can be cleared at any time by clearing the App's data or uninstalling the App.</p>
 
-  <h2>6. Children's Privacy</h2>
-  <p>MapQuest is a general-audience geography quiz game suitable for all ages. We do not knowingly collect personal information from children under 13. The only data we store is a user-chosen username and game scores, which do not constitute personal information.</p>
+  <h2>6. Data Storage and Security</h2>
+  <p>Most app data (preferences, local scores, hints count) is stored locally on your device using AsyncStorage and never transmitted to our servers. Leaderboard and username data submitted to Firebase is stored securely using Google's infrastructure.</p>
 
-  <h2>7. Changes to This Policy</h2>
+  <h2>7. Children's Privacy</h2>
+  <p>Quizograph does not knowingly collect personal information from children under 13, and the App is not directed at children under 13. The only account-related data we store is a user-chosen username and game scores/progress, which do not constitute personal information.</p>
+
+  <h2>8. Changes to This Policy</h2>
   <p>We may update this Privacy Policy from time to time. Any changes will be reflected on this page with an updated date. Continued use of the App after changes constitutes acceptance of the updated policy.</p>
 
-  <h2>8. Contact Us</h2>
-  <p>If you have any questions about this Privacy Policy, please contact us at:</p>
+  <h2>9. Contact Us</h2>
+  <p>If you have any questions about this Privacy Policy, or to request removal of your leaderboard data, please contact us at:</p>
   <p><strong>No Context Studios</strong><br/>
   Email: <a href="mailto:thomaswrites08@gmail.com">thomaswrites08@gmail.com</a></p>
-
 </body>
 </html>
